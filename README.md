@@ -20,6 +20,7 @@ Quick guide:
 	- ToDirectSpace[h,k,l]: gives the direction, in direct space, that corresponds to the normal of the plane with Miller indices (h k l). Note that it may not be possible to write the Miller indices as integers. This is useful to determine channelling directions.
 	- ToReciprocalSpace[u,v,w]: gives the plane, in reciprocal space, that corresponds to the the direction [u v w]. Note that it may not be possible to write the Miller indices as integers. 
 	- Plane[u1,v1,w1,u2,v2,w2]: finds the Miller indices of the plane containing the axis [u1 v1 w1] and [u2 v2 w2].
+	- MutuallyOrthogonal[h1,k1,l1,h2,k2,l2]: finds the Miller indices of the plane that is simultaneously orthogonal to the planes (h1 k1 l1) and (h2 k2 l2). The output may then be rationalised.
 	- Q[h,k,l]: gives the length (in reciprocal space) of the reciprocal space vector associated with the planes with Miller indices (h k l).
 	- Qz[h,k,l,m,n,o]: gives the component of the Q-vector associated with the plane with Miller indices (h k l) in the direction of the normal to the plane with Miller indices (m n o). Usually, (m n o) will be the surface plane, so Qz represents the perpendicular component of the scattering vector.
 	- Qx[h,k,l,m,n,o]: gives the component of the Q-vector associated with the plane with Miller indices (h k l) in the direction along the plane with Miller indices (m n o). Usually, (m n o) will be the surface plane, so Qx represents the parallel component of the scattering vector.
