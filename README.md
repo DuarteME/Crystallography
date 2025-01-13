@@ -1,6 +1,9 @@
 # Crystallography by D. M. Esteves (INESC MN/IST-ULisboa)
 This is a Mathematica script to perform algebraic calculations of distances and angles between planes and directions in crystallography.
 
+Requirements:
+Mathematica >= 13.3
+
 Quick guide:
 1. To get started, you should create a list of rules ("params") with your lattice parameters. You can use your favourite units for lengths, as the results will be given in the same units. For angles, please use degrees. Example: for NaCl, a->0.56402 nm.
 
